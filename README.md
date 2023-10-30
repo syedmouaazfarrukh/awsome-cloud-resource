@@ -4,3 +4,7 @@ This resource is aimed at helping you design and implement cloud solutions incre
   - [Use Case]()
   - [Type of Industry]()
   - [Organization Type]()
+
+## Use Cases
+Implement the following cloud solutions to get hands-on with cloud technologies.
+### 1. 
