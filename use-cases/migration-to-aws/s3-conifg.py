@@ -1,6 +1,4 @@
 import boto3
-import logger
-
 
 
 def list_buckets(s3_resource):
@@ -102,27 +100,21 @@ def set_lifecycle_policy(bucket_name):
     s3_client.put_bucket_lifecycle_configuration(Bucket=bucket_name, LifecycleConfiguration=lifecycle_config)
 
 
-
-
 if __name__ == "__main__":
     
     bucket_name = "mouaazodlmigrationtestbucket"
     region_name = "eu-north-1" #Stockholm
     keep_bucket = None
     s3_resource = boto3.resource("s3")
-    
-    # bucket_name = "mouaazodlmigrationtestbucket"
-    # file_path = "path_to_file"  # Replace with your file path
-    # object_name = "your_file_name"  # Replace with the name you want to give to the file
-    
-    # upload_to_s3(bucket_name, file_path, object_name)
-    # set_lifecycle_policy(bucket_name)
-    
-    
+    file_path = ""
+    object_name = "sample object"
     
     list_buckets(s3_resource)
+    create_bucket(s3_resource, bucket_name)
+    upload_to_s3(bucket_name, file_path, object_name)
+    set_lifecycle_policy(bucket_name)
+    
     delete_bucket(s3_resource, bucket_name)
-    # create_and_delete_my_bucket(s3_resource, bucket_name, keep_bucket)
     list_buckets(s3_resource)
     
     
