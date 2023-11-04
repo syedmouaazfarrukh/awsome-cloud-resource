@@ -1,5 +1,6 @@
 #### Problem Statment:
 A company wants to migrate its on-premises application to AWS. The application produces output files that vary in size from tens of gigabytes to hundreds of terabytes. The application data must be stored in a standard file system structure. The company wants a solution that scales automatically. is highly available, and requires minimum operational overhead
+
 #### Solution:
 For this scenario, an effective solution would involve leveraging AWS services to meet the scalability, high availability, and operational efficiency requirements. Here's an architecture that addresses the company's needs:
 
