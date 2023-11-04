@@ -38,7 +38,7 @@ if __name__ == '__main__':
         
         # Create a DataSync task.
         response = datasync_client.create_task(
-            SourceLocationArn='arn:aws:datasync:us-east-1:123456789012:location/loc-01234567-89ab-cdef-0123-456789abcdef',
+            SourceLocationArn=f'{on_premises_location}',
             DestinationLocationArn=f'arn:aws:s3:::{bucket_name}',
             TaskType='SYNC',
             ScheduleExpression='cron(0 0 * * ? *)',
