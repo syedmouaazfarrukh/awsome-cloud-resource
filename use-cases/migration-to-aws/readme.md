@@ -14,6 +14,11 @@ For this scenario, an effective solution would involve leveraging AWS services t
 3. **AWS EFS for File System Structure:**
    - Utilize Amazon Elastic File System (EFS) to provide a fully managed, scalable file storage service that supports standard file system interfaces. EFS offers seamless scalability and can automatically grow to petabyte scale.
 
+   Mount the file system to an EC2 instance.
+   ```bash
+   sudo mount -t nfs ${ip_address}:/ /mnt/efs
+   ```
+
 4. **AWS Lambda for Automation:**
    - Employ AWS Lambda to automate the scaling and management of the application resources. Lambda can trigger operations based on defined criteria, ensuring the system can handle varying workloads with minimal manual intervention.
 
