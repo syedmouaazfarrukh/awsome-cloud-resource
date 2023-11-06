@@ -21,6 +21,7 @@ For this scenario, an effective solution would involve leveraging AWS services t
 
 4. **AWS Lambda for Automation:**
    - Employ AWS Lambda to automate the scaling and management of the application resources. Lambda can trigger operations based on defined criteria, ensuring the system can handle varying workloads with minimal manual intervention.
+   - Using Webhooks or API notifications: Your on-premises application can send webhooks or API notifications to an endpoint hosted on AWS Lambda. These notifications will trigger a Lambda function, which can then initiate the data transfer process using Snowball or DataSync.
 
 5. **Amazon CloudWatch for Monitoring:**
    - Implement Amazon CloudWatch to monitor the performance and health of the application and storage services. Configure alarms and automated responses to ensure high availability and timely remediation of issues.
