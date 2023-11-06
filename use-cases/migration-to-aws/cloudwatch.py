@@ -34,5 +34,9 @@ def create_cloudwatch_alarms(application_name):
 
     return efs_mount_point_utilization_alarm, s3_storage_latency_alarm
 
-# Call the function to create the alarms
-efs_mount_point_utilization_alarm, s3_storage_latency_alarm = create_cloudwatch_alarms('MyApplication')
+
+
+   
+if __name__ == "__main__":
+    # Call the function to create the alarms
+    efs_mount_point_utilization_alarm, s3_storage_latency_alarm = create_cloudwatch_alarms('mouaazodlmigrationtest')
