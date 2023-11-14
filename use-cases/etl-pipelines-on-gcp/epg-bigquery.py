@@ -17,6 +17,7 @@ bigquery_client.load_table_from_uri(
     job_config=bigquery.LoadJobConfig()
 )
 
+
 # Query the table
 query = 'SELECT * FROM retail_data.transactions'
 query_job = bigquery_client.query(query)
