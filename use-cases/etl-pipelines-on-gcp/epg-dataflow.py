@@ -24,6 +24,5 @@ def transform_data(data):
 pipeline | 'ReadData' >> ReadFromPubSub(topic_path) | 'TransformData' >> Map(transform_data) | 'WriteToDestination' >> WriteToBigQuery(
                                                                                                 query=f'INSERT INTO `swift-analogy-399205.test.bq-test` (si_id) VALUES ({data})',
                                                                                                 )
-
 # Run the pipeline
 dataflow_client.run_pipeline(pipeline)

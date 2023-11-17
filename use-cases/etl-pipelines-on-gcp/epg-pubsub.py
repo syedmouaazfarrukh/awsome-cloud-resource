@@ -92,14 +92,15 @@ def create_pull_subscription(project_id: str, topic_id: str, subscription_id: st
 if __name__ == "__main__":
 
     topic_id = "customer_buyhistory"
-    create_topic(project_id="your-project-id", topic_id=topic_id)
+    project_id="your-project-id"
+    create_topic(project_id, topic_id=topic_id)
 
     topic_id = "customer_buyhistory"
     subscription_id = "customer_buyhistory_push"
     endpoint = "https://my-test-project.appspot.com/push"
-    create_push_subscription(project_id="your-project-id", topic_id=topic_id, subscription_id=subscription_id, endpoint=endpoint)
+    create_push_subscription(project_id, topic_id=topic_id, subscription_id=subscription_id, endpoint=endpoint)
 
     topic_id = "customer_buyhistory"
     subscription_id = "customer_buyhistory_pull"
-    create_pull_subscription(project_id="your-project-id", topic_id=topic_id, subscription_id=subscription_id)
+    create_pull_subscription(project_id, topic_id=topic_id, subscription_id=subscription_id)
 
