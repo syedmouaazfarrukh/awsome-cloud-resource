@@ -1,4 +1,4 @@
-from google.cloud import pubsub
+from google.cloud import pubsub_v1
 
 # Create topic for each source, I'm taking: 
 # 1. customer_buyhistory
