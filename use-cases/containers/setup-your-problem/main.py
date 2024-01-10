@@ -70,15 +70,6 @@ merged_df = pd.merge(df1, df2, on='order_id', how='inner')
 
 #  ----------- LOAD -----------------
 
-
-# Replace 'your_connection_string' with your RDS connection string
-# connection_string = "etlb.c3g2sa6aqpxp.eu-north-1.rds.amazonaws.com"
-# engine = create_engine(connection_string)
-# print(engine)
-
-
-
-
 # Replace the placeholders with your actual RDS information
 username = 'admin'
 password = 'BgYlwxiBBmYEWf8LgylG'
