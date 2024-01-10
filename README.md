@@ -1,15 +1,13 @@
 ### 1. [Migrating to Cloud]()
 ### 2. [ETL Solutions on Cloud]()
 
-Absolutely, creating an engaging and informative README is crucial. Below is a sample README for your cloud solutions repository:
+# HandsOnClouds 🚀
 
-# CloudCraftHub 🚀
+Welcome to HandsOnClouds – Your Go-To Resource for Real-world Cloud Solutions! 🌐🔧
 
-Welcome to CloudCraftHub – Your Go-To Resource for Real-world Cloud Solutions! 🌐🔧
+## What is HandsOnClouds?
 
-## What is CloudCraftHub?
-
-CloudCraftHub is a collaborative repository designed for both junior and senior cloud enthusiasts. It serves as a hands-on learning resource, providing real-world scenarios to build, deploy, and optimize cloud solutions using various cloud platforms.
+HandsOnClouds is a collaborative repository designed for both junior and senior cloud enthusiasts. It serves as a hands-on learning resource, providing real-world scenarios to build, deploy, and optimize cloud solutions using various cloud platforms.
 
 ## 🛠️ Cloud Solutions Covered:
 
@@ -22,7 +20,7 @@ CloudCraftHub is a collaborative repository designed for both junior and senior 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/CloudCraftHub.git
+   git clone https://github.com/syedmouaazfarrukh/hands-on-clouds.git
    ```
 
 2. **Choose Your Cloud Adventure:**
@@ -42,9 +40,9 @@ CloudCraftHub is a collaborative repository designed for both junior and senior 
 
 ## 🚀 Happy Cloud Crafting! 🚀
 
-Whether you are just starting your cloud journey or looking for new challenges, CloudCraftHub has something for everyone. Explore, learn, and contribute to the future of cloud solutions! 🌟
+Whether you are just starting your cloud journey or looking for new challenges, HandsOnClouds has something for everyone. Explore, learn, and contribute to the future of cloud solutions! 🌟
 
-Feel free to connect with us on [Twitter](https://twitter.com/CloudCraftHub) and join the conversation! 🐦
+Feel free to connect with us on [Twitter](https://twitter.com/HandsOnClouds) and join the conversation! 🐦
 ```
 
 Feel free to customize this template according to your specific goals and preferences!
