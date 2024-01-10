@@ -25,6 +25,13 @@ Containerize ETL jobs and deploy them on Amazon ECS. This allows for efficient p
 - AWS provides a free tier for ECS, covering a certain amount of container and task resources.
 - Additional costs may include data transfer and storage for processed data in Amazon S3 or a data warehouse.
 
+
+**Step by Step Implementation:**
+
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download) to be used as sample.
+2. 
+
+
 ### Solution 2: Serverless Batch Processing with AWS Lambda and Step Functions
 
 **Description:**
