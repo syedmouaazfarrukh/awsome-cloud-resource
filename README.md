@@ -25,7 +25,8 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 - **[Web/App Development:]()**
 - **[Serverless]()**
 - **[Internet of Things]()** 
-- **[DevOps]()** 
+- **[DevOps]()**
+- **[Others]()**
 
 
 ### 3. Organization Specific Solutions
@@ -34,6 +35,7 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 - **[Public Sector]()**
 - **[Small/Medium Business]()**
 - **[Startups]()**
+- **[Others]()**
 
 
 ### 4. Industry Specific Solutions
@@ -43,6 +45,7 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 - **[Healthcare/Life Sciences]():** 
 - **[Telecommunication]()** 
 - **[IoT/Industry 4.0]()** 
+- **[Others]()**
 
 ---
 
