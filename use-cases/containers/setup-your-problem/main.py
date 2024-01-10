@@ -69,14 +69,6 @@ merged_df = pd.merge(df1, df2, on='order_id', how='inner')
 
 
 #  ----------- LOAD -----------------
-aws_access_key_id = "AKIARUYU6WP7JT3XTGRE"
-aws_secret_access_key = "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"
-region= "us-east-1"
-
-# -- SETUP S3 CLIENT
-client = boto3.client('rds',
-aws_access_key_id=aws_access_key_id,
-aws_secret_access_key=aws_secret_access_key)
 
 
 # Replace 'your_connection_string' with your RDS connection string
