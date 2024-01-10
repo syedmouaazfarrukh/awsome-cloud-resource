@@ -1,4 +1,6 @@
 import pandas as pd
+from sqlalchemy import create_engine
+import boto3
 
 #  ----------- EXTRACT -----------------
 # Load Excel files into pandas DataFrames
@@ -13,7 +15,7 @@ df2 = pd.read_csv(file2_path)
 #  ----------- TRANSFORM -----------------
 
 merged_df = pd.merge(df1, df2, on='order_id', how='inner')
-print(merged_df)
+# print(merged_df)
 
 # Additional transformations as needed
 
@@ -64,3 +66,41 @@ print(merged_df)
 
 # These are just some of the key functionalities in pandas. Depending on your specific transformation needs, you might use a combination of these operations to clean, reshape, and manipulate your data effectively.
 
+
+
+#  ----------- LOAD -----------------
+aws_access_key_id = "AKIARUYU6WP7JT3XTGRE"
+aws_secret_access_key = "tjSFZ9ypksOUXtUnjkkW8nKpvbSy8XdUEzLhu3ZO"
+region= "us-east-1"
+
+# -- SETUP S3 CLIENT
+client = boto3.client('rds',
+aws_access_key_id=aws_access_key_id,
+aws_secret_access_key=aws_secret_access_key)
+
+
+# Replace 'your_connection_string' with your RDS connection string
+# connection_string = "etlb.c3g2sa6aqpxp.eu-north-1.rds.amazonaws.com"
+# engine = create_engine(connection_string)
+# print(engine)
+
+
+
+
+# Replace the placeholders with your actual RDS information
+username = 'admin'
+password = 'BgYlwxiBBmYEWf8LgylG'
+host = 'etlb.c3g2sa6aqpxp.eu-north-1.rds.amazonaws.com'
+port = '3306'  # Default is usually 3306 for MySQL
+database = 'ETLB_AWS'
+
+# Construct the connection string
+connection_string = f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}'
+
+# Create the SQLAlchemy engine
+engine = create_engine(connection_string)
+print(engine)
+
+table_name = 'merged_on_orderID'
+load = merged_df.to_sql(table_name, con=engine, index=False, if_exists='replace')
+print(f'Table "{table_name}" created successfully.')
