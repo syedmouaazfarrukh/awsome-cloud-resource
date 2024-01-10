@@ -1,7 +1,4 @@
-### 1. [Migrating to Cloud]()
-### 2. [ETL Solutions on Cloud]()
-
-# HandsOnClouds 🚀
+# HandsOnClouds ☁️
 
 Welcome to HandsOnClouds – Your Go-To Resource for Real-world Cloud Solutions! 🌐🔧
 
@@ -11,33 +8,41 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 
 ## Cloud Solutions Covered: 🛣️
 
-### 1. Platform Specific Solutions
+### 1. Platform Specific Solutions 
     
 - **[AWS (Amazon Web Services):]()**  Explore the power of AWS services for scalable and robust cloud solutions.
 - **[Azure (Microsoft):]()** Dive into Microsoft Azure's ecosystem for seamless integration and deployment.
-- **[Google Cloud Platform (GCP)]():** Harness the capabilities of GCP for innovative and efficient cloud architectures.
+- **[Google Cloud Platform (GCP):]()** Harness the capabilities of GCP for innovative and efficient cloud architectures.
 - **[Multi-Cloud Scenarios:]()** Learn how to design solutions that span across different cloud providers.
 
 ### 2. Use Case Specific Solutions
     
-- **[AWS (Amazon Web Services):]()**  Explore the power of AWS services for scalable and robust cloud solutions.
-- **[Azure (Microsoft):]()** Dive into Microsoft Azure's ecosystem for seamless integration and deployment.
-- **[Google Cloud Platform (GCP)]():** Harness the capabilities of GCP for innovative and efficient cloud architectures.
-- **[Multi-Cloud Scenarios:]()** Learn how to design solutions that span across different cloud providers.
+- **[Cloud Migartion:]()** 
+    - [Migration to AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/migration-to-aws)
+- **[Containers:]()** 
+- **[Data Lakes/Analytics:]()**
+    - [ETL Pipelines on GCP](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/etl-pipelines-on-gcp)
+- **[Web/App Development:]()**
+- **[Serverless]()**
+- **[Internet of Things]()** 
+- **[DevOps]()** 
+
 
 ### 3. Organization Specific Solutions
     
-- **[AWS (Amazon Web Services):]()**  Explore the power of AWS services for scalable and robust cloud solutions.
-- **[Azure (Microsoft):]()** Dive into Microsoft Azure's ecosystem for seamless integration and deployment.
-- **[Google Cloud Platform (GCP)]():** Harness the capabilities of GCP for innovative and efficient cloud architectures.
-- **[Multi-Cloud Scenarios:]()** Learn how to design solutions that span across different cloud providers.
+- **[Enterprise]()**
+- **[Public Sector]()**
+- **[Small/Medium Business]()**
+- **[Startups]()**
+
 
 ### 4. Industry Specific Solutions
     
-- **[AWS (Amazon Web Services):]()**  Explore the power of AWS services for scalable and robust cloud solutions.
-- **[Azure (Microsoft):]()** Dive into Microsoft Azure's ecosystem for seamless integration and deployment.
-- **[Google Cloud Platform (GCP)]():** Harness the capabilities of GCP for innovative and efficient cloud architectures.
-- **[Multi-Cloud Scenarios:]()** Learn how to design solutions that span across different cloud providers.
+- **[Educational]()**
+- **[Financial Services]()**
+- **[Healthcare/Life Sciences]():** 
+- **[Telecommunication]()** 
+- **[IoT/Industry 4.0]()** 
 
 ---
 
@@ -64,11 +69,10 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 4. Push to the branch: `git push origin feature/your-feature`.
 5. Submit a pull request.
 
-## 🚀 Happy Cloud Crafting! 🚀
+## Happy Cloud Learning! 🚀
 
 Whether you are just starting your cloud journey or looking for new challenges, HandsOnClouds has something for everyone. Explore, learn, and contribute to the future of cloud solutions! 🌟
 
 Feel free to connect with us on [Twitter](https://twitter.com/HandsOnClouds) and join the conversation! 🐦
-```
 
 Feel free to customize this template according to your specific goals and preferences!
