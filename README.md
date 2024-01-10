@@ -10,10 +10,10 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 
 ### 1. Platform Specific Solutions 
     
-- **[AWS (Amazon Web Services):]()**  Explore the power of AWS services for scalable and robust cloud solutions.
-- **[Azure (Microsoft):]()** Dive into Microsoft Azure's ecosystem for seamless integration and deployment.
-- **[Google Cloud Platform (GCP):]()** Harness the capabilities of GCP for innovative and efficient cloud architectures.
-- **[Multi-Cloud Scenarios:]()** Learn how to design solutions that span across different cloud providers.
+- **[AWS (Amazon Web Services):]()** 
+- **[Azure (Microsoft):]()**
+- **[Google Cloud Platform (GCP):]()**
+- **[Multi-Cloud Scenarios:]()** 
 
 ### 2. Use Case Specific Solutions
     
