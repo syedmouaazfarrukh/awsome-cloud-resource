@@ -32,21 +32,6 @@ Containerize ETL jobs and deploy them on Amazon ECS. This allows for efficient p
 2. 
 
 
-### Solution 2: Serverless Batch Processing with AWS Lambda and Step Functions
-
-**Description:**
-Refactor ETL jobs into serverless functions using AWS Lambda and orchestrate them using AWS Step Functions. Each function performs a specific task in the ETL process.
-
-**Advantages:**
-- **Zero Server Management:** AWS Lambda automatically scales based on the number of incoming events.
-- **Cost-Efficiency:** Pay only for the compute time consumed by each Lambda function.
-- **Ease of Orchestration:** Step Functions simplifies the coordination of multiple Lambda functions, providing a visual representation of the workflow.
-
-**Estimated Costs/Quotas:**
-- Costs are based on the number of Lambda invocations and execution time.
-- AWS provides a free tier for Lambda and Step Functions, covering a certain number of requests and compute time.
-- Additional costs may include data transfer and storage for processed data.
-
 ### Conclusion:
 
-Both solutions offer efficient ways to leverage batch processing for ETL jobs on AWS. The choice between containerization with ECS and serverless with Lambda depends on factors such as the complexity of ETL workflows, resource requirements, and preferred management style. It's essential to analyze the specific needs of the ETL process and consider the associated costs for data storage, transfer, and compute resources.
+The solution offer efficient ways to leverage batch processing for ETL jobs on AWS.
