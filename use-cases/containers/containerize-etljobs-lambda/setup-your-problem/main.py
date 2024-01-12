@@ -1,6 +1,5 @@
 import pandas as pd
 from sqlalchemy import create_engine
-import boto3
 
 #  ----------- EXTRACT -----------------
 # Load Excel files into pandas DataFrames

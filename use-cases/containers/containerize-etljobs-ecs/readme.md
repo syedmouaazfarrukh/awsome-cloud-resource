@@ -29,9 +29,18 @@ Containerize ETL jobs and deploy them on Amazon ECS. This allows for efficient p
 **Step by Step Implementation:**
 
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download) to be used as sample.
-2. 
+2. Setup your problem by running `use-cases\containers\containerize-etljobs-ecs\setup-your-problem\main.py`
+    - It must be observed that here we are considering one/two transformation and therefore there won't be much load but in practical scenarios, etl jobs when group together are compute extensive. Play around this and learn as much as you can!
+3. Now separate two ETL jobs and create separate folders for each one and test their functionalities.
+4. Create Dockerfile for each job in their respective folders
+5. Then follow the `docker-commands.md` to build and push your docker images on ECR (Elastic Container Registry)
+6. Create ECS (Elastic Container Service) *Tasks Definitions* using a JSON format. Read [JSON Validation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-task-definition.html#json-validate-for-create). You would also need to create a `executionRoleArn` for which you should read [IAM Roles](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
+7. Create ECS cluster and connect it with your task definitions.
+8. The cluster will only execute your tasks/ETL jobs once.
+9. In order to run at regular intervals, Go to CloudWatch/Events/Rules, create a EventBrideRule and connect it with the cluster and tasks.
+
 
 
 ### Conclusion:
 
-The solution offer efficient ways to leverage batch processing for ETL jobs on AWS.
+The proposed solution leverages containerized batch processing with Amazon ECS to address performance bottlenecks in an e-commerce company's ETL process. By containerizing ETL jobs, the solution offers scalability, isolation, and resource efficiency. Estimated costs include container resources, with AWS providing a free tier for ECS, and additional costs for data transfer and storage. Implementation involves dataset setup, separation of ETL jobs, Dockerfile creation, ECR image management, ECS task definition creation, and CloudWatch Events for scheduling, providing a comprehensive solution for efficient ETL processing on AWS.
