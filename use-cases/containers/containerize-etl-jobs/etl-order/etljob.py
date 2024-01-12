@@ -3,8 +3,8 @@ from sqlalchemy import create_engine
 
 #  ----------- EXTRACT -----------------
 # Load Excel files into pandas DataFrames
-file1_path = 'D://OneDrive - Octopus Digital//Desktop//HandsOnClouds//hands-on-clouds//use-cases//containers//containerize-etl-jobs//etl-order//olist_order_items_dataset.csv'
-file2_path = 'D://OneDrive - Octopus Digital//Desktop//HandsOnClouds//hands-on-clouds//use-cases//containers//containerize-etl-jobs//etl-order//olist_order_payments_dataset.csv'
+file1_path = 'your-dataset-directory'
+file2_path = 'your-dataset-directory'
 
 df1 = pd.read_csv(file1_path)
 df2 = pd.read_csv(file2_path)
@@ -24,13 +24,15 @@ host = 'endpoint'
 port = 'port'  # Default is usually 3306 for MySQL
 database = 'your-database-name'
 
+
+
 # Construct the connection string
 connection_string = f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}'
 
 # Create the SQLAlchemy engine
 engine = create_engine(connection_string)
-# print(engine)
 
-table_name = 'merged_on_orderID'
+
+table_name = 'your-table-name'
 load = merged_df.to_sql(table_name, con=engine, index=False, if_exists='append')
-print(f'Data in "{table_name}" appended successfully.')
+print(f'Data in "{table_name}" created/appended successfully.')
