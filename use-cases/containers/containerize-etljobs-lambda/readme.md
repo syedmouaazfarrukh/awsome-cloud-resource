@@ -29,7 +29,7 @@ Refactor ETL jobs into serverless functions using AWS Lambda and orchestrate the
 **Step by Step Implementation:**
 
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download) to be used as sample.
-2. 
+2. *In progress*
 
 
 ### Conclusion:
