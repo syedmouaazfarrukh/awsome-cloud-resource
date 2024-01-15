@@ -24,7 +24,7 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
     - [Implement ETLs using containers](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/containerize-etljobs-ecs)
     - [Modernization of Financial Apps](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/microserv-for-financial-apps)
     - [Monolith to Microservices WebApp](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/containerize-webapp)
-    - [Scaling for Image Classification in E-WebApp](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/scaling-image-class-in-eapps)
+    - [Scaling ML loads for Image Classification](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/scaling-image-class-in-eapps)
     
 - **[Data Lakes/Analytics:]()**
     - [Build ETL pipelines on AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/data-warehouse-lakes/etl-pipelines-on-aws) 
@@ -34,7 +34,7 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 
 - **[Serverless]()**
     - [Implement ETLs using serverless](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/serverless/serverless-etljobs-lambda)
-    
+
 - **[Internet of Things]()** 
 - **[DevOps]()**
 - **[Others]()**
