@@ -21,7 +21,7 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
     - [Migration to AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/cloud-migration/migration-to-aws)
 - **[Containers:]()**
     - [Implement ETLs using containers](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/containerize-etljobs-ecs)
-    - [Containerized Scaling for Image Classification in E-WebApp](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/scaling-hd-image-class-in-eapps)
+    - [Containerized Scaling for Image Classification in E-WebApp](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/scaling-image-class-in-eapps)
 - **[Data Lakes/Analytics:]()**
     - [Build ETL pipelines on AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/data-warehouse-lakes/etl-pipelines-on-aws) 
     - [Build ETL pipelines on GCP](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/data-warehouse-lakes/etl-pipelines-on-gcp)
