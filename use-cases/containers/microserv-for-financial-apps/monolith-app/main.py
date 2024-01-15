@@ -18,6 +18,22 @@ class AccountManager:
         # Logic to retrieve the account balance for the given account ID
         pass
 
+class ComplianceChecker:
+    def perform_compliance_check(self, customer_id, transaction_amount):
+        # Logic to check compliance for a transaction amount for the specified customer
+        pass
+
+class Authenticator:
+    def authenticate_customer(self, username, password):
+        # Logic to authenticate a customer based on provided username and password
+        pass
+
+class TransactionsProcessor:
+    def process_transaction(self, account_id, amount, transaction_type):
+        # Logic to process a transaction (debit or credit) for the specified account
+        pass
+
+
 
 if __name__ == "__main__":
     
@@ -28,4 +44,20 @@ if __name__ == "__main__":
     balance = account_manager.get_account_balance(account_id="67890")
     print(f"Account Balance: ${balance}")
 
+
+    compliance_checker = ComplianceChecker()
+    compliance_result = compliance_checker.perform_compliance_check(customer_id="12345", transaction_amount=100)
+    print(f"Compliance Check Result: {compliance_result}")
+
+    
+    authenticator = Authenticator()
+    authentication_result = authenticator.authenticate_customer(username="john_doe", password="secret123")
+    if authentication_result:
+        print("Authentication Successful")
+    else:
+        print("Authentication Failed")
+        
+        
+    transaction_processor = TransactionsProcessor()
+    transaction_processor.process_transaction(account_id="67890", amount=50, transaction_type="debit")
 
