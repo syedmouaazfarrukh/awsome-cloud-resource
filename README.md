@@ -18,12 +18,15 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 ### 2. Use Case Specific Solutions
     
 - **[Cloud Migartion:]()** 
-    - [Migration to AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/migration-to-aws)
-- **[Containers:]()** 
+    - [Migration to AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/cloud-migration/migration-to-aws)
+- **[Containers:]()**
+    - [Implement ETLs using containers](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/containers/containerize-etljobs-ecs) 
 - **[Data Lakes/Analytics:]()**
-    - [ETL Pipelines on GCP](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/etl-pipelines-on-gcp)
+    - [Build ETL pipelines on AWS](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/data-warehouse-lakes/etl-pipelines-on-aws) 
+    - [Build ETL pipelines on GCP](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/data-warehouse-lakes/etl-pipelines-on-gcp)
 - **[Web/App Development:]()**
 - **[Serverless]()**
+    - [Implement ETLs using serverless](https://github.com/syedmouaazfarrukh/hands-on-clouds/tree/main/use-cases/serverless/serverless-etljobs-lambda)
 - **[Internet of Things]()** 
 - **[DevOps]()**
 - **[Others]()**
