@@ -27,11 +27,10 @@ An e-commerce platform built with a monolithic architecture faces challenges as 
 - Microservices allow for cost optimization by scaling only the necessary components during peak times, reducing overall infrastructure costs.
 
 **Step by Step Implementation:**
-1. **Identify Microservices:** Break down the monolithic application into distinct, business-specific microservices.
-2. **Containerize Microservices:** Use Docker to create containers for each microservice, ensuring consistency across different environments.
-3. **Container Orchestration:** Deploy and manage microservices using container orchestration tools like Amazon EKS, allowing for efficient scaling and fault tolerance.
-4. **API Gateway:** Implement an API Gateway to manage communication between microservices, handle authentication, and provide a unified entry point for clients.
-5. **Continuous Integration/Continuous Deployment (CI/CD):** Establish CI/CD pipelines for each microservice, enabling automated testing and deployment.
+
+1. **Run On-prem WebApp:** `cd` into *onprem-react-app* and run `npm start` on the terminal
+2. **Create a Dockerfil** Create a dockerfile such as `use-cases\containers\containerize-webapp\simple-react-app\Dockerfile`.
+3. **Build Image/Run Container** Build image from Dockerfile and run the container.
 
 **Conclusion:**
 By adopting a microservices architecture with containerization on AWS, the e-commerce platform gains flexibility, scalability, and improved fault isolation. The modular and independent nature of microservices allows for faster development cycles and better resource utilization, addressing the challenges associated with a monolithic architecture.
