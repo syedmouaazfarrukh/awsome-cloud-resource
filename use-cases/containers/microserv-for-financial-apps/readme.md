@@ -29,10 +29,46 @@ A financial institution relies on a legacy monolithic application for core banki
 
 **Step by Step Implementation:**
 1. **Service Decomposition:** Identify and decompose distinct banking functionalities within the monolithic application into microservices.
-2. **Containerization:** Containerize each microservice using Docker, ensuring consistency and independence.
-3. **API Design:** Define and implement clear APIs for communication between microservices, promoting loose coupling.
-4. **Event-Driven Architecture:** Implement event-driven patterns for asynchronous communication between microservices, improving responsiveness.
-5. **DevOps Integration:** Integrate DevOps practices for continuous integration, continuous deployment, and automated testing to streamline development workflows.
+2. **Containerization:** Containerize each microservice using Docker, ensuring consistency and independence as given in `use-cases\containers\microserv-for-financial-apps\microservices-app`.
+3. **Push to AWS ECR:** Push Docker Images to ECR.
+4. **ECS Task Definition:** Create Task Definition of each image from ECR separately using the following syntax:
+
+```yaml
+# ECS Task Definition for Account Management Service
+account-management-task:
+  containers:
+    - name: account-management-container
+      image: account-management-image
+      ports:
+        - containerPort: 8080
+
+# ECS Task Definition for Transactions Service
+transactions-task:
+  containers:
+    - name: transactions-container
+      image: transactions-image
+      ports:
+        - containerPort: 8081
+
+# ECS Task Definition for Compliance Checks Service
+compliance-checks-task:
+  containers:
+    - name: compliance-checks-container
+      image: compliance-checks-image
+      ports:
+        - containerPort: 8082
+
+# ECS Task Definition for Customer Authentication Service
+customer-authentication-task:
+  containers:
+    - name: customer-authentication-container
+      image: customer-authentication-image
+      ports:
+        - containerPort: 8083
+```
+
+
+5. **Create/Deploy on ECS Cluster:** Create and deploy ECS cluster containing the above task definitions.
 
 **Conclusion:**
 By modernizing the legacy monolithic application into a microservices architecture with containerization, the financial institution gains the agility needed to adapt to changing regulatory requirements, enhance security, and introduce innovative banking services efficiently. The modular and scalable nature of microservices addresses the challenges posed by the rigid monolithic architecture.
