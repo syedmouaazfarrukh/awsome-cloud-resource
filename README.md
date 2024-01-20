@@ -4,7 +4,7 @@ Welcome to HandsOnClouds – Your Go-To Resource for Real-world Cloud Solutions!
 
 ## What is HandsOnClouds? 🙋🏻‍♂️
 
-HandsOnClouds is a collaborative repository designed for both junior and senior cloud enthusiasts. It serves as a hands-on learning resource, providing real-world scenarios to build, deploy, and optimize cloud solutions using various cloud platforms.
+HandsOnClouds is a collaborative repository designed for both junior and senior cloud enthusiasts. It serves as a hands on learning resource, providing real-world scenarios to build, deploy, and optimize cloud solutions using various cloud platforms.
 
 ## Cloud Solutions Covered: 🛣️
 
