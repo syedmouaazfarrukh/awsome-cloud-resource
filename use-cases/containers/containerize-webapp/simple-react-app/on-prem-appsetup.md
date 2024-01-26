@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `npm create-react-app onprem-app`
+
+Creates the app in the a folder called onprem-app
+
 ### `npm start`
 
 Runs the app in the development mode.\
