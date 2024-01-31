@@ -87,5 +87,6 @@ HandsOnClouds is a collaborative repository designed for both junior and senior 
 
 Whether you are just starting your cloud journey or looking for new challenges, HandsOnClouds has something for everyone. Explore, learn, and contribute to the future of cloud solutions! 🌟
 
+
 Feel free to connect with us on [Twitter](https://twitter.com/HandsOnClouds) and join the conversation! 🐦
 Feel free to customize this template according to your specific goals and preferences! 
