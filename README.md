@@ -89,4 +89,3 @@ Whether you are just starting your cloud journey or looking for new challenges, 
 
 Feel free to connect with us on [Twitter](https://twitter.com/HandsOnClouds) and join the conversation! 🐦
 Feel free to customize this template according to your specific goals and preferences! 
-
